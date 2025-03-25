@@ -1,0 +1,9 @@
+services:    
+  app:
+    image: www.neu-nex.fun/week2/crypto/mcga
+    restart: always
+    environment:
+      - FLAG=#FLAG#
+      - GOAL=4
+    ports:
+      - "#PORT#:13341"
