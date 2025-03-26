@@ -9,3 +9,4 @@ It's all the challenge that I make for ctf game.
 | [铜匠](NEX_week_game/week2/铜匠) | Crypto | Copper | ★ |
 | [DH](NEX_week_game/week2/DH) | Crypto | DH, DLP| ★ |
 | [MCGA](NEX_week_game/week2/MCGA) | Crypto | random, mod| ★ | 
+| [rcfour](NEX_week_game/week3/rcfour) | Crypto | random, RC4 | ★ ★ 
