@@ -1,1 +1,4 @@
-I gave you too much last time. This I just give you a little.
+> _"在Crypto世界中，LCG就像数学系的初恋——美好、单纯、且活不过三集"_  
+> ——《密码学の奇妙物语》· 第φ章
+
+（φ=黄金分割率，但这里只是想让排版看起来有学术压迫感）
