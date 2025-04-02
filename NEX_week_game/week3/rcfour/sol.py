@@ -1,28 +1,14 @@
-from sage.all import *
-from Crypto.Util.number import *
 from tqdm import *
-import random
-import time
-import copy
-
-# Quick hack
-import sys
-
+from Crypto.Util.number import *
 import sys
 sys.path.append('./MT19937-Symbolic-Execution-and-Solver/source')
-
-# Import symbolic execution
-from MT19937 import MT19937, MT19937_symbolic
-
-# Import XorSolver
-from XorSolver import XorSolver
+from MT19937 import MT19937
 
 with open('cipher.txt') as f:
     c = f.readlines()
 c = bytes.fromhex(c[0])
 n_test = []
 C = 1836184682169748070989133840042351952294695964110407163899271185441343825945147993536644513381704679641476812132479929805459665176655835013432635869984651
-
 
 for k in trange(256):
     try:

@@ -10,7 +10,7 @@ for i in range(M):
 C.append(n)
 A = block_matrix([
     [matrix.identity(M + 1),matrix(C).T],
-    [matrix([0]*(M + 1)),sum]
+    [matrix([0]*(M + 1)),-sum]
 ])
 for i in A.LLL()[0]:
     print(chr(abs(i)),end="")

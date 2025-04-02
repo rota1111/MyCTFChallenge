@@ -27,7 +27,7 @@ c = rcfour(key, bytes([random.getrandbits(8) for _ in range(50000)]))
 with open('cipher.txt','w') as f:
     f.write(bytes.hex(c))
 
-N = nextprime(random.getrandbits(1024))
+N = nextprime(random.getrandbits(512))
 C = pow(flag,65537,N)
 print(f"C = {C}")
 """
