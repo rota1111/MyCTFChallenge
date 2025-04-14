@@ -13,6 +13,8 @@ It's all the challenge that I make for ctf game.
 | [MCGA](NEX_week_game/week2/MCGA) | Crypto | random, mod| ★ | 
 | [rcfour](NEX_week_game/week3/rcfour) | Crypto | random, RC4 | ★ ★ ★
 | [RSABag](NEX_week_game/week3/RSABag) | Crypto | RSA, LLL | ★ ★ 
-| [Really RSA 5](NEX_week_game/week4/Really%20RSA%205/) | Crypto | RSA, wiener | ★ ★ ★
+| [Really RSA 4](NEX_week_game/week4/Really%20RSA%204/) | Crypto | RSA, wiener | ★ ★ ★
 | [Modulus_wanderer3](NEX_week_game/week4/Modulus_wanderer3/) | Crypto | mod, LLL | ★ ★ ★
 | [friendly_neighborhood](NEX_week_game/week4/friendly_neighborhood/) | Crypto | isogeny| ★ ★ ★
+| [Really RSA 5](NEX_week_game/week5/Really%20RSA%205/) | Crypto | RSA | ★ ★
+| [NTR警告](NEX_week_game/week5/NTR警告/) | Crypto | ntru | ★ ★
