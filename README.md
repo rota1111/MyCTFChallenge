@@ -3,6 +3,8 @@ It's all the challenge that I make for ctf game.
 
 Some of the challenges are adapted from existing ones and are not original.  
 
+It's all the challenge that I make for ctf game.   
+Some of the challenges are adapted from existing ones and are not original.
 ## NEX week game
 | Name | Category | Tags | Difficulty
 | ------------ | ------ | --- | --- |
