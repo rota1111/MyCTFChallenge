@@ -30,14 +30,14 @@ def calc(n):
     return x
 
 T = []
-for i in range(128):
-    x = 1<<(127-i)
+for i in range(64):
+    x = 1<<(63-i)
     x = f(x)
-    T.append(Integer(x).digits(2,padto = 128)[::-1])
+    T.append(Integer(x).digits(2,padto = 64)[::-1])
     
 T = matrix(GF(2),T)
 x = 0x1122334455667788
-b = matrix(ZZ,[ int(i) for i in bin(x)[2:].rjust(128,'0')])
+b = matrix(ZZ,[ int(i) for i in bin(x)[2:].rjust(64,'0')])
 c = int(''.join([str(int(i)) for i in (b*T**11111111111111111111111111111111111111111111111)[0]]),2)
 print('nex{%s}' % hex(c)[2:])
 #nex{9b23fb81eaae279d}
